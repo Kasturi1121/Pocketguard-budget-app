@@ -182,6 +182,7 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
+	base: '/Pocketguard-budget-app/',
 	customLogger: logger,
 	plugins: [react(), addTransformIndexHtml],
 	server: {
